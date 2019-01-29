@@ -59,7 +59,7 @@ function handleSubmit(evt) {
                     <p>Make: ${selectedMake}</p>
                     <p>Year: ${selectedYear}</p>
                     <p>Level: ${selectedLevel}</p>
-                    <p class="total">Total: ${result}</p>
+                    <p class="total">Total: $${result}</p>
                 </div>
             `
             resultBlock.insertAdjacentHTML('afterbegin', output)

@@ -27,6 +27,10 @@ header h1 {
     margin-bottom: 20px;
     text-align: center;
     color: #F4511E;
+    display: none;
+}
+.error.is-visible {
+    display: block;
 }
 .error p {
     margin:0;
@@ -41,7 +45,7 @@ header h1 {
 .content-form {
     margin-top: 30px;
 }
-#loading img {
+#loading {
     display: none;
     margin: 0 auto;
 }
@@ -63,4 +67,14 @@ header h1 {
     padding: 10px;
     text-transform: uppercase;
     font-weight: bold;
+}
+.form-check {
+    padding-left: 0;
+}
+.form-check-input {
+    position: static;
+    margin: 0;
+}
+#request-quote {
+    padding: 0 15px;
 }
